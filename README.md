@@ -1,17 +1,20 @@
-# Workflow
-Simple task management web-app to easily create and assign tasks to specific team members with all the necessary task management tools.
+# Task Manage
 
-![alt text](https://github.com/WillingtonM/workflow_app/blob/main/web/img/other/image.png)
+This project is a task management tool designed to streamline task organization, enhance collaboration, and improve productivity for teams. It is built using PHP for the backend, MySQL for the database, and utilizes Composer for managing PHP packages.
 
+## Table of Contents
 
-# Introduction
-Workflow task management tool is a seamless web and mobile-friendly platform, designed for efficient task management, aimed to simplify the complexities faced by teams in their daily workflows. The tool strives to not only meet the technical requirements but also address the practical needs of the users.
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+Task Manage (task management) tool is a seamless web and mobile-friendly platform, designed for efficient task management, aimed to simplify the complexities faced by teams in their daily Task Manages. The tool strives to not only meet the technical requirements but also address the practical needs of the users.
 
 Team
-
-[Elysée Mutaganda](https://github.com/M-Elysee)
-
-Software engineer, specializing in back-end programming. His focus was on coordinating and developing the backend logic implementations.
 
 [Willington Mhlanga](https://github.com/WillingtonM) 
 
@@ -20,53 +23,82 @@ Software Engineer, specializing in front-end development. Mainly focuses on fron
 ### Story Behind the Project:
 Sharing a personal anecdote, the inspiration for this project struck when I encountered the overwhelming challenges when using other existing online task management tools, these challenges range from difficulty in setting up tasks and the complexities that come with it dur the overwhelming integrated features. It ignited a passion to contribute a solution that would benefit others facing similar challenges.
 
-# Installation Procedure
+## Getting Started
 
-<!-- ## Composer -->
-Note: composer 2.1+ is required!
+To get started with using or contributing to this project, follow the instructions below.
 
-Install PHP
+## Prerequisites
 
-    Install WAMP/LAMP
+Before you begin, ensure you have the following installed:
 
-The latest workflow_app version can be installed via composer. This is especially useful, if you want to create new workflow_app installations automatically or play with the latest code. You need to install the composer package first, if it isn't already available:
+- PHP: [Installation Guide](https://www.php.net/manual/en/install.php)
+- Composer: [Installation Guide](https://getcomposer.org/doc/00-intro.md)
+- MySQL: [Installation Guide](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+- Node.js: [Installation Guide](https://nodejs.org/en/download/)
 
-    php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer
+## Installation
 
-Install NodeJS
+1. **Clone the repository**:
 
-    Install node.js
-    Install gulp.js
+    ```bash
+    git clone https://github.com/yourusername/task_manage.git
+    ```
 
-Install NodeJS Libraries
+2. **Navigate to the project directory**:
 
-    npm install
+    ```bash
+    cd task_manage
+    ```
 
-Install PHP Libraries
+3. **Install PHP dependencies using Composer**:
 
+    ```bash
     composer install
+    ```
 
-## Resources
-[Website](http://workflowapp-38a7bb2f5eae.herokuapp.com/) main site.
+4. **Install Node.js packages (if applicable)**:
 
-[Landing page](http://workflowapp-38a7bb2f5eae.herokuapp.com/login) overview of the product.
+    ```bash
+    npm install
+    ```
 
-[Blog](https://www.linkedin.com/pulse/unveiling-journey-creating-workflow-task-management-tool-mhlanga-3esuf/) for guides and technical comparisons.
+5. **Set up the database**:
 
-[GitHub](https://github.com/WillingtonM/workflow_app) for source code, project board, issues, and pull requests.
+    - Create a MySQL database for the project.
+    - Import the database schema from `database/schema.sql`.
+    - Update the database configuration in `config/database.php` with your MySQL credentials.
 
-[Twitter](https://twitter.com/M_Willington) for the latest updates on the product and published blogs.
+## Usage
 
-[LinkedIn](https://za.linkedin.com/in/willington-mhlanga-0046a7140) for the latest updates on the product and published blogs.
+1. **Start the PHP development server**:
 
+    ```bash
+    php -S localhost:8000 -t public
+    ```
+
+2. **Access the application**:
+
+    Open your web browser and navigate to `http://localhost:8000`.
+
+3. **Register an account or log in**:
+
+    Use the provided functionality to register a new account or log in with existing credentials.
+
+4. **Start managing tasks**:
+
+    Once logged in, you can start creating, assigning, and managing tasks within the application.
 
 ## Contributing
-Workflow is a project created as part of the ALX-Africa portfolio Project. We are committed to a fully transparent development process and highly appreciate any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as a part of the Workflow community. Please refer to our contribution guidelines and code of conduct.
 
-Bug Report: If you see an error message or encounter an issue while using Workflow, please create a bug report.
+Contributions are welcome! To contribute to this project, follow these steps:
 
-Feature Request: If you have an idea or if there is a capability that is missing and would make development easier and more robust, please submit afeature request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/my-feature`).
+6. Create a new pull request.
 
-Documentation Request: If you're reading the Workflow docs and feel like you're missing something, please submit a documentation request.
+## License
 
-## Contributors
+This project is licensed under the [MIT License](LICENSE).
