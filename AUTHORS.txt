@@ -1,4 +1,3 @@
 # This file lists all contributors to the repository.
 
-Mutaganda Elysee <mutagandaelysee2@gmail.com>
 Willington Mhlanga <willington.mhlanga@gmail.com>
