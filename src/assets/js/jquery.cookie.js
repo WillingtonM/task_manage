@@ -23,7 +23,6 @@ function _typeof(obj) {
  * Released under the MIT license
  */
 
-
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD (Register as an anonymous module)
@@ -87,7 +86,7 @@ function _typeof(obj) {
 
 
     var result = key ? undefined : {},
-        // To prevent the for loop in the first place assign an empty array
+    // To prevent the for loop in the first place assign an empty array
     // in case there are no cookies at all. Also prevents odd result when
     // calling $.cookie().
     cookies = document.cookie ? document.cookie.split('; ') : [],
