@@ -14,7 +14,7 @@ composer.phar
 #!/img/*.gif
 
 .zip
-# .env
+.env
 
 web/docs/
 web/img/media/
