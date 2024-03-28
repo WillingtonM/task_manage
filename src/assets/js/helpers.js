@@ -4,10 +4,10 @@ var total = document.querySelectorAll('.nav-pills');
 total.forEach(function (item, i) {
   item.onmouseover = function (event) {
     var target = getEventTarget(event);
-    var li = target.closest('li'); // get reference
+    var li = target.closest('li');
 
     if (li) {
-      var nodes = Array.from(li.closest('ul').children); // get array
+      var nodes = Array.from(li.closest('ul').children);
 
       var index = nodes.indexOf(li) + 1;
 

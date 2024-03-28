@@ -14,7 +14,7 @@ function sidebarToggle() {
     });
   } else {
     $('#sidenav_wrapper').addClass('sidenav_toggle');
-    $('#body').addClass('body_toggle'); // $('#body').css("margin-left", "75px");
+    $('#body').addClass('body_toggle');
 
     if (window_width >= 991) {
       document.getElementById("body").style.marginLeft = "75px";

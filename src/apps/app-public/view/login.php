@@ -8,6 +8,5 @@
         <?php require_once $config['PARSERS_PATH'] . 'login_psrs.php' ?>
       </div>
     </div>
-    
   </div>
 </div>
