@@ -40,11 +40,11 @@ use Cocur\Slugify\Slugify;
 $slugify = new Slugify();
 
 // excel
-use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx; 
+// use PhpOffice\PhpSpreadsheet\IOFactory;
+// use PhpOffice\PhpSpreadsheet\Spreadsheet;
+// use PhpOffice\PhpSpreadsheet\Reader\Xlsx; 
 
-$def_spreadsheet    = new Spreadsheet();
+// $def_spreadsheet    = new Spreadsheet();
 
 
 // .............................................................................
