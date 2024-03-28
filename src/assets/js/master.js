@@ -264,7 +264,7 @@ $(document).ready(function () {
         form_data.append('article_file', true);
         form_data.append('url', post_urls[0]);
         form_data.append('token', token);
-        form_data.append('get_type', post_type[0]); // form_data.append('post_image', $("#"+img_id)[0].files[0]);
+        form_data.append('get_type', post_type[0]);
 
         $.ajax({
           url: path_action,
